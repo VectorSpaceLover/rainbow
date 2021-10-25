@@ -1,0 +1,49 @@
+{
+	"HOME": {
+		"title": "ART FUNDING TECH",
+		"content": [
+			"MINT ONE OF 10 000",
+			"RAINBOW UNICORNS"
+		],
+		"detail": [
+			"UNICORNS ARE UNIQUE",
+			"UNICORNS ARE CUTE",
+			"UNICORNS ARE WORTH $1B"
+		],
+		"button": "Mint Now"
+	},
+	"ABOUT": {
+		"detail": [
+			"Every year new tech giants are born.",
+			"You get to choose who we fund.",
+			"You are a shareholder from inception.",
+			"Your NFT grows in price.",
+			"Your shares grow in price."
+		]
+	},
+	"WHY": {
+		"content": "enabling the community to partially own it's own tech giants.",
+		"detail1": [
+			"YOU MINT YOUR UNICORN",
+			"60% CREATES A 1$B TECH UNICORN",
+			"YOU OWN A PERCENTAGE FOR LIFE"
+		],
+		"detail21": "A unicorn is a privately held startup company valued at over $1billion. We invest 60% of all NFT's' sold into a potential startup as per votes from our shareholders and NFT owners. We support, mentor and grow the startup until it is a Unicorn.",
+		"detail22": "What do you get when buying a Rainbow Unicorn?",
+		"detail23": [
+			"A 100% Unique NFT",
+			"Shares in the Startup we fund.",
+			"A warm fuzzy feeling inside! :)"
+		]
+	},
+	"HOW": {
+		"content": "Each phase entitles the NFT owner to new perks and participation rights."
+	},
+	"FEATURES": {
+		"detail": [
+			"EACH UNICORN HAS A MINIMUM OF 9 AND A MAXIMUM OF 10 TRAITS.",
+			"THE UNICORN VERSION INDICATES THE STARTUP ASSOCIATED WITH IT.",
+			"YOUR UNICORN GRANTS YOU ACCESS TO OUR BUSINESS PORTAL."
+		]
+	}
+}

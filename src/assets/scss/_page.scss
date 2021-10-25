@@ -1,0 +1,461 @@
+/* Font */
+@font-face {
+  font-family: "Reem Kufi";
+  src: url("../fonts/ReemKufi-Regular.ttf");
+}
+
+/* Navigation */
+#navigation {
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.navbar-dark .navbar-nav .nav-link {
+  margin-left: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #0082f3;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  box-shadow: inset 0 -5px 0 0 #fc0a7e;
+  color: #fff;
+}
+
+/* Home Section */
+#home {
+  padding-top: 130px;
+  background-color: #cf0063;
+  background-image: url("../img/wavy-bg.svg"),
+    linear-gradient(135deg, #dd1173, #350e47);
+  background-size: cover, auto;
+  -webkit-background-size: cover, auto;
+  -moz-background-size: cover, auto;
+  -o-background-size: cover, auto;
+  min-height: 100vh;
+}
+#home-body {
+  min-height: 70vh;
+}
+#home-title h1 {
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+#home-content p {
+  font-family: "Reem Kufi", sans-serif;
+  color: #03fff2;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 600;
+}
+#home-detail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border: 1px none #000;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+#home-detail ul {
+  margin-bottom: 0px;
+}
+#home-detail li {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fce00a;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+}
+#home-button .btn-custom {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #02fff2;
+  -webkit-transition: background-color 500ms cubic-bezier(0.789, 0.159, 0.25, 1),
+    color 200ms cubic-bezier(0.789, 0.159, 0.25, 1);
+  transition: background-color 500ms cubic-bezier(0.789, 0.159, 0.25, 1),
+    color 200ms cubic-bezier(0.789, 0.159, 0.25, 1);
+  font-family: "Reem Kufi", sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#home-button {
+  margin-top: 20px;
+}
+#home-button .btn-custom:hover {
+  background-color: #fce00a;
+  color: #000;
+}
+#home-image img {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* About Section */
+#about {
+  padding-top: 100px;
+  background-color: #002e57;
+  background-image: url("../img/wavy-background.svg"),
+    linear-gradient(135deg, #004fc5, #09132a);
+  background-size: cover, auto;
+  -webkit-background-size: cover, auto;
+  -moz-background-size: cover, auto;
+  -o-background-size: cover, auto;
+  min-height: 100vh;
+}
+#about-title img {
+  width: 70%;
+}
+
+#about-detail {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+#about-detail ul {
+  margin-bottom: 0px;
+}
+#about-detail li {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+#about-unicorn img {
+  width: 70%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Why Section */
+#why {
+  padding-top: 100px;
+  background-color: transparent;
+  background-image: url("../img/wavy-background.svg"),
+    linear-gradient(151deg, #000, #353535);
+  background-size: cover, auto;
+  -webkit-background-size: cover, auto;
+  -moz-background-size: cover, auto;
+  -o-background-size: cover, auto;
+  min-height: 100vh;
+}
+#why-title img {
+  width: 60%;
+}
+#why-content p {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#why-detail1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 13px;
+  background-color: rgba(31, 0, 82, 0.8);
+}
+#why-detail1 ul {
+  margin-bottom: 0px;
+}
+#why-detail2 ul {
+  margin-bottom: 0px;
+}
+#why-detail1 li {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+#why-detail2 {
+  margin-top: 10px;
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.88);
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+#why-detail2 .bold-text {
+  color: #ffd900;
+}
+#why-detail2 li {
+  font-size: 18px;
+}
+#why-purple-unicorn {
+  z-index: 1;
+}
+#why-purple-unicorn .purple-unicorn {
+  max-width: 300px;
+  padding-top: 50px;
+}
+#why-whole {
+  padding: 0px;
+  z-index: 2;
+}
+
+/* How Section */
+#how {
+  padding-top: 100px;
+  background-color: #6e2ed8;
+  background-image: url("../img/wavy-background.svg"),
+    linear-gradient(324deg, #6000ff, #eb70f8);
+  background-size: cover, auto;
+  -webkit-background-size: cover, auto;
+  -moz-background-size: cover, auto;
+  -o-background-size: cover, auto;
+  min-height: 100vh;
+}
+#how-title img {
+  width: 100%;
+}
+#how-body img {
+  width: 90%;
+  background-color: #fff;
+}
+
+#how-detail {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(31, 0, 82, 0.8);
+}
+#how-detail p {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+#how-unicorn img {
+  width: 80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Features Section */
+#features {
+  padding-top: 100px;
+  background-color: #fabb00;
+  background-image: url("../img/wavy-background.svg"),
+    linear-gradient(151deg, #fc0a7e, #602bb6);
+  background-size: cover, auto;
+  -webkit-background-size: cover, auto;
+  -moz-background-size: cover, auto;
+  -o-background-size: cover, auto;
+  min-height: 100vh;
+}
+#features-title img {
+  width: 100%;
+}
+#features-unicorn img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+#features-detail {
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(31, 0, 82, 0.8);
+}
+#features-detail ul {
+  margin-bottom: 0px;
+}
+#features-detail li {
+  font-family: "Reem Kufi", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+@media only screen and (min-width: 1600px) {
+  /* Navigation */
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 25px;
+  }
+
+  /* Home Section */
+  #home {
+    padding-top: 170px;
+  }
+  #home-title h1 {
+    font-size: 75px;
+  }
+  #home-content p {
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 600;
+  }
+  #home-detail li {
+    font-size: 40px;
+  }
+  #home-button .btn-custom {
+    font-size: 35px;
+  }
+  #home-button {
+    margin-top: 50px;
+  }
+
+  /* About Section */
+  #about {
+    padding-top: 100px;
+  }
+  #about-title img {
+    width: 90%;
+  }
+  #about-detail li {
+    font-family: "Reem Kufi", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+  }
+  #about-unicorn img {
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  /* Why Section */
+  #why {
+    padding-top: 100px;
+  }
+  #why-title img {
+    width: 80%;
+  }
+  #why-content p {
+    line-height: 25px;
+    font-size: 22px;
+  }
+  #why-detail1 {
+    padding: 15px;
+  }
+  #why-detail1 li {
+    font-size: 25px;
+  }
+
+  #why-detail2 {
+    margin-top: 20px;
+    width: 75%;
+  }
+  #why-detail2 {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  #why-detail2 li {
+    font-size: 28px;
+  }
+  #why-purple-unicorn .purple-unicorn {
+    max-width: 400px;
+    padding-top: 90px;
+  }
+
+  /* How Section */
+  #how {
+    padding-top: 120px;
+  }
+  #how-title img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #how-body img {
+    width: 90%;
+  }
+  #how-detail {
+    padding: 20px;
+  }
+  #how-detail p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #how-unicorn img {
+    width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Features Section */
+  #features {
+    padding-top: 100px;
+    background-color: #fabb00;
+    background-image: url("../img/wavy-background.svg"),
+      linear-gradient(151deg, #fc0a7e, #602bb6);
+    background-size: cover, auto;
+    -webkit-background-size: cover, auto;
+    -moz-background-size: cover, auto;
+    -o-background-size: cover, auto;
+    min-height: 100vh;
+  }
+  #features-title img {
+    width: 100%;
+  }
+  #features-unicorn img {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  #features-detail {
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(31, 0, 82, 0.8);
+  }
+  #features-detail ul {
+    margin-bottom: 0px;
+  }
+  #features-detail li {
+    font-family: "Reem Kufi", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  #home-image img {
+    width: 70%;
+  }
+}
